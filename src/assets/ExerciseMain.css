@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background-image: url(../../public/image/background.png);
+    background-image: url(./image/background.png);
     background-size: cover; /* 화면에 맞게 배경 이미지를 크기 조절 */
     background-position: center center; /* 배경 이미지가 화면 중앙에 오도록 설정 */
     background-repeat: no-repeat; /* 이미지가 반복되지 않도록 설정 */

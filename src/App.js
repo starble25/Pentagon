@@ -1,12 +1,12 @@
-import './App.css';
-import ExerciseMain from './pentagon/ExerciseMain';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import DetailPage from './pentagon/DetailPage';
+import ExerciseMain from './pentagon/pages/ExerciseMain'; 
+import DetailPage from './pentagon/pages/DetailPage'; 
+import ExerciseMain from './pages/ExerciseMain';
+import DetailPage from './pages/DetailPage';
 
 
 function App() {
-
   return (
     <Router>
       <Routes>
@@ -16,8 +16,6 @@ function App() {
       </Routes>
     </Router>
   );
-
-
 }
 
 export default App;

@@ -1,8 +1,8 @@
 import './App.css';
-import ExerciseMain from './pentagon/ExerciseMain';
+import ExerciseMain from './pages/ExerciseMain/ExerciseMain';
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import DetailPage from './pentagon/DetailPage';
+import DetailPage from './pages/ExerciseMain/DetailPage';
 
 
 function App() {

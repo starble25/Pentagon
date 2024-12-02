@@ -3,9 +3,20 @@ import Card from 'react-bootstrap/Card';
 import Row from 'react-bootstrap/Row';
 import Modal from 'react-bootstrap/Modal';
 import '../../assets/ExerciseMain.css';
+<<<<<<< HEAD
 import lowLevelImage from '../../assets/image/low-level.jpg';
 import midLevelImage from '../../assets/image/mid-level.jpg';
 import highLevelImage from '../../assets/image/high-level.jpg';
+=======
+import { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
+import DetailPage from './DetailPage';
+import lowLevelImage from '../../assets/image/low-level.jpg';
+import midLevelImage from '../../assets/image/mid-level.jpg';
+import highLevelImage from '../../assets/image/high-level.jpg';
+
+>>>>>>> cab6bcd17693e1f2d3c0703027ba2bc3c9a181f4
 
 function ExerciseMain() {
     let [show, setShow] = useState(false);

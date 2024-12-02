@@ -1,20 +1,25 @@
 import './App.css';
-import ExerciseMain from './pentagon/ExerciseMain';
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import DetailPage from './pentagon/DetailPage';
+import BarChart from './pages/ExerciseRecord/BarChart';
+import LineChart from './pages/ExerciseRecord/LineChart';
+import RadarChart from './pages/ExerciseRecord/RadarChart';
+import DoughnutChart from './pages/ExerciseRecord/DoughnutChart';
 
 
 function App() {
 
   return (
-    <Router>
-      <Routes>
-        <Route path="/" element={<ExerciseMain />} />
-        <Route path="/details" element={<DetailPage />} />
-        <Route path="*" element={<div>경로 오류</div>} />
-      </Routes>
-    </Router>
+
+    <div style={{ width: '600px', margin: '0 auto' }}>
+
+      <h1>차트 모음</h1>
+      <BarChart />
+      <LineChart/>
+      <RadarChart/>
+      <DoughnutChart/>
+    
+    </div>
+
   );
 
 
